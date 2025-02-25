@@ -1,0 +1,119 @@
+@media (max-width: 701px) {
+    header {
+        flex-direction: column !important;
+    }
+
+    header>div.logo {
+        align-self: center !important;
+        text-align: center;
+    }
+
+    header>div.logo>img {
+        width: 100px;
+    }
+
+
+    /* Mobile menu */
+    header>div.logo>div.toggle-icon {
+        align-items: center;
+        height: auto;
+        width: auto;
+        cursor: pointer;
+        display: block !important;
+    }
+
+    header>nav.nav-bar {
+        display: none;
+    }
+
+    header>nav.nav-bar>ul {
+        flex-direction: column !important;
+        align-self: center !important;
+    }
+
+    section#hero-section {
+        margin-top: 0px !important;
+        padding: 0px !important;
+    }
+
+    /* Hero section - Left Side */
+    section#hero-section>div.rightSide>img {
+        width: 100% !important;
+    }
+
+    /* Section Tools */
+    section#tools {
+        width: 84vw !important;
+    }
+
+    /* Digital Expertise  */
+    section#digital-expertise article {
+        padding: 50px 20px !important;
+        text-align: center;
+        height: auto !important;
+    }
+
+    section#digital-expertise article p {
+        text-align: justify;
+    }
+
+    section#digital-expertise img {
+        width: 100% !important;
+    }
+
+    /* Where we shine */
+    section#where-we-shine {
+        background: transparent !important;
+    }
+
+    section#where-we-shine h2 {
+        text-align: center !important;
+    }
+
+    section#where-we-shine div.services article {
+        background: var(--grey) !important;
+    }
+
+    /* Why choose */
+    section#why-choose {
+        padding: 0px !important;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    }
+
+    section#why-choose>img {
+        width: 100% !important;
+    }
+
+    /* Partners section */
+    section#partners {
+        gap: 50px !important;
+        padding: 80px 0px 0px !important;
+    }
+
+    /* Footer */
+    footer#footer {
+        gap: 30px !important;
+        justify-content: space-evenly !important;
+        flex-direction: column-reverse;
+        padding: 40px 20px !important;
+    }
+
+    footer#footer span {
+        text-align: center;
+    }
+
+    footer#footer nav.footer-nav-link>ul {
+        justify-content: space-between !important;
+    }
+
+    footer#footer nav.footer-nav-link>ul {
+        gap: 5px !important;
+    }
+
+    footer#footer nav.footer-nav-link>ul>li:first-child {
+        flex: 2 1 auto;
+    }
+}

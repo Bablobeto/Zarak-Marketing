@@ -1,0 +1,41 @@
+@media (max-width: 1092px) {
+    section#hero-section {
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    section#hero-section>div.leftSide {
+        align-self: center !important;
+    }
+
+    section#partners {
+        background:transparent !important;
+        justify-content: center;
+    }
+
+    section#partners > article h1 {  
+        text-align: center !important;
+    }
+    section#partners > article {
+        align-items: center !important;
+    }
+
+
+    /* Hero section - Left Side */
+    section#hero-section>div.leftSide {
+        text-align: center !important;
+    }
+
+    section#hero-section>div.leftSide{
+        padding: 20px !important;
+    }
+
+    a.cta {
+        margin: auto;
+    }
+
+    section#hero-section>div.rightSide {
+        text-align: center !important;
+    }
+    
+}
